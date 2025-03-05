@@ -28,7 +28,7 @@ const Header = ({
         {/* Logo */}
         <Link to="/" className="flex items-center">
           <img
-            src="/serko-travel-logo.svg"
+            src="/serko-logo.png"
             alt="Serko Travel"
             className="h-8 md:h-10"
           />
