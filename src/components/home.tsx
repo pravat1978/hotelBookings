@@ -9,7 +9,7 @@ function Home() {
     <MainLayout>
       <HeroBanner />
       <div className="w-full py-8 px-4 space-y-12 bg-white">
-        <section className="-mt-24 relative z-20">
+        <section className="-mt-32 relative z-20">
           <SearchPanel className="mb-12" />
         </section>
 

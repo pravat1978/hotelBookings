@@ -12,12 +12,12 @@ interface HeroBannerProps {
 const HeroBanner = ({
   title = "Discover Your Perfect Stay",
   subtitle = "Find and book accommodations worldwide with our easy-to-use platform",
-  imageUrl = "/hero-serko.png?w=1920&q=80",
+  imageUrl = "/hero-serko.png?w=1920&q=380",
   ctaText = "Explore Now",
   onCtaClick,
 }: HeroBannerProps) => {
   return (
-    <div className="relative w-full h-[280px] overflow-hidden">
+    <div className="relative w-full h-[380px] overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
@@ -29,8 +29,8 @@ const HeroBanner = ({
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto h-full flex flex-col justify-center px-4 md:px-6">
-        <div className="max-w-2xl">
+      <div className="relative z-10 container mx-auto h-full flex flex-col justify-start px-4 md:px-6">
+        <div className="max-w-2xl p-20">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-2 leading-tight">
             {title}
           </h1>

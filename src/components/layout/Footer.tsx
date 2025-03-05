@@ -161,16 +161,16 @@ const Footer = ({ className }: FooterProps = {}) => {
               <li className="flex items-start">
                 <MapPin className="mr-2 h-5 w-5 text-slate-400 shrink-0 mt-0.5" />
                 <span className="text-slate-300">
-                  123 Hotel Street, Cityville, Country, 12345
+                  #123 sector 6, HSR Layout, India, 560068
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone className="mr-2 h-5 w-5 text-slate-400" />
                 <a
-                  href="tel:+11234567890"
+                  href="tel:+919492234123"
                   className="text-slate-300 hover:text-white transition-colors"
                 >
-                  +1 (123) 456-7890
+                  +91 9492 234123
                 </a>
               </li>
               <li className="flex items-center">
@@ -179,7 +179,7 @@ const Footer = ({ className }: FooterProps = {}) => {
                   href="mailto:info@hotelfinder.com"
                   className="text-slate-300 hover:text-white transition-colors"
                 >
-                  info@hotelfinder.com
+                  info@serkkor.com
                 </a>
               </li>
             </ul>
