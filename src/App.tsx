@@ -2,9 +2,10 @@ import { Suspense, lazy } from "react";
 import { useRoutes, Routes, Route } from "react-router-dom";
 import Home from "./components/home";
 import routes from "tempo-routes";
+import ViewDetails from "./components/hotels/ViewDetails";
 
 const HotelDetail = lazy(() => import("./components/hotels/HotelDetail"));
-const ViewDetails = lazy(() => import("./components/hotels/ViewDetails"));
+//const ViewDetails = lazy(() => import("./components/hotels/ViewDetails"));
 
 function App() {
   return (
