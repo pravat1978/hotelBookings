@@ -4,6 +4,7 @@ import Home from "./components/home";
 import routes from "tempo-routes";
 
 const HotelDetail = lazy(() => import("./components/hotels/HotelDetail"));
+const ViewDetails = lazy(() => import("./components/hotels/ViewDetails"));
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/hotels/:id" element={<HotelDetail />} />
+          <Route path="/view-details/:id" element={<ViewDetails />} />
           {import.meta.env.VITE_TEMPO === "true" && (
             <Route path="/tempobook/*" />
           )}

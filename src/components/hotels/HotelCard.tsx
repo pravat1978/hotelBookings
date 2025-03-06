@@ -98,7 +98,7 @@ const HotelCard = ({
           )}
         </div>
         <a
-          href={`/hotels/${id}`}
+          href={`/view-details/${id}`}
           className={cn(
             "px-4 py-2 rounded-md bg-primary text-primary-foreground hover:bg-primary-dark transition-colors",
             "font-medium text-sm inline-block text-center",
